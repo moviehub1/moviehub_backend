@@ -7,8 +7,7 @@ const cors = require('cors');
 
 
 const app = express();
-const uri = `mongodb+srv://khadija:123456...@cluster0.apa1qxa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
-const client = new MongoClient(uri);
+const uri = `mongodb+srv://moviedb:moviedb@cluster0.apa1qxa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 app.use(express.json());
 app.use(cors()); // Retained the CORS middleware
 
