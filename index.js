@@ -7,7 +7,7 @@ const cors = require('cors');
 
 
 const app = express();
-const uri = `mongodb+srv://vercel-admin-user:W12KcbEJtKSGpJzF@cluster0.vwpm7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://moviedb:moviedb@cluster0.vwpm7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 app.use(express.json());
 app.use(cors()); // Retained the CORS middleware
 
